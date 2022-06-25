@@ -1,17 +1,16 @@
 function legalAgeOrNot (age) {
     // escreva aqui a solução de código que verifica se a idade da pessoa é maior ou não que 18 anos (veja que a idade virá através da variável 'age' que está como parâmetro da função)
 
-    let age
-    if age => 18 {
+        let age
+        if (age => 18) {
        console.log("A idade é maior ou igual a 18 anos. Pode entrar na boate1")
-
-  else 
+       }
+  else {
 
 
        console.log ("A idade é menor que 18 anos, entrada não permitida!")
+  }
 
-
-    }
 
 }
    // Se for maior ou igual, você deve exibir na tela "A idade é maior ou igual a 18 anos. Pode entrar na boate".
